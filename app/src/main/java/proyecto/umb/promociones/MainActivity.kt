@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        //bindeamos el evento de click para ingresar al registro
         ingresar.setOnClickListener {
             startActivity(Intent(this,Registro::class.java))
         }
